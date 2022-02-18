@@ -13,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/二叉树最大深度/Solution.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/爬楼梯/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/买卖股票的最佳时机一/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/买卖股票的最佳时机二/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -42,17 +60,22 @@
         <option value="$PROJECT_DIR$/删除链表中的节点/Solution.java" />
         <option value="$PROJECT_DIR$/反转字符串中的单词/Solution.java" />
         <option value="$PROJECT_DIR$/最长公共前缀/Solution.java" />
-        <option value="$PROJECT_DIR$/有效的括号/Solution.java" />
         <option value="$PROJECT_DIR$/合并两个有序链表/Solution.java" />
         <option value="$PROJECT_DIR$/合并两个有序数组/Solution.java" />
         <option value="$PROJECT_DIR$/删除有序数组中的重复项/Solution.java" />
         <option value="$PROJECT_DIR$/最大子数组和/Solution.java" />
         <option value="$PROJECT_DIR$/二叉树最大深度/Solution.java" />
+        <option value="$PROJECT_DIR$/有效的括号/Solution2.java" />
+        <option value="$PROJECT_DIR$/有效的括号/Solution.java" />
+        <option value="$PROJECT_DIR$/爬楼梯/Solution.java" />
+        <option value="$PROJECT_DIR$/买卖股票的最佳时机一/Solution" />
+        <option value="$PROJECT_DIR$/买卖股票的最佳时机二/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="909" />
+    <option name="y" value="308" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -70,8 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -83,6 +104,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,18 +167,22 @@
       <workItem from="1644546541941" duration="593000" />
       <workItem from="1644550360786" duration="593000" />
       <workItem from="1644554534143" duration="8000" />
-      <workItem from="1644987785820" duration="2263000" />
+      <workItem from="1644987785820" duration="2859000" />
+      <workItem from="1645010708434" duration="1986000" />
+      <workItem from="1645065747080" duration="790000" />
+      <workItem from="1645101703410" duration="594000" />
+      <workItem from="1645204460027" duration="1457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35686000" />
+    <option name="totallyTimeSpent" value="41109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="909" y="308" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2702407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23304157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,17 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/有效的括号/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#833#844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/合并两个有序数组/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -308,8 +324,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/二叉树最大深度/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/有效的括号/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/有效的括号/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬楼梯/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/买卖股票的最佳时机一/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/买卖股票的最佳时机二/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>

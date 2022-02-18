@@ -1,3 +1,4 @@
+import java.util.Deque;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
@@ -16,16 +17,15 @@ Java中实际上提供了java.util.Stack来实现栈结构,但官方目前已不
 
 * */
 public class Solution {
-
-    s = "({})"
-    s1 = "{}[]"
     public boolean isValid(String s) {
+        //当给定字符串长度为奇数时，返回false
         int n = s.length();
         if (n % 2 == 1) {
             return false;
         }
 
-        Map<Character, Character> pairs = new HashMap<>() {
+        Map<Character, Character> pair = new HashMap<>() {
+            //隐式声明及代码块初始化
             {
                 put(')', '(');
                 put(']', '[');
@@ -34,20 +34,16 @@ public class Solution {
         };
 
         Deque<Character> stack = new LinkedList<Character>();
+
         for (int i = 0; i < n; i++) {
-            char ch = s.charAt(i);
-            if (pairs.containsKey(ch)) {
-                //peek()获取但不删除栈顶元素，失败则抛出异常
-                if (stack.isEmpty() || stack.peek() != pairs.get(ch)) {
+            char temp = s.charAt(i);
+            if (pair.containsKey(temp)) {
+                if (stack.isEmpty() || stack.peek() != pair.get(ch)) {
                     return false;
                 }
-                //出栈
-                stack.pop();
             } else {
-                //入栈
-                stack.push(ch);
+                stack.push(temp);
             }
         }
-        return stack.isEmpty();
     }
 }

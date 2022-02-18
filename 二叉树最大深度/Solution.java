@@ -20,11 +20,10 @@ class Solution {
             return 0;
         } else {
             //记录左树深度
-            int leftTreeDeep = maxDepth(root.left);
-            //记录右树深度
-            int rigthTreeDeep = maxDepth(root.right);
-            return Math.max(leftTreeDeep, rigthTreeDeep) + 1;
+            int leftTreeDepth = maxDepth(root.left);
+            //记录右树的深度
+            int rightTreeDepth = maxDepth(root.right);
+            return Math.max(leftTreeDepth, rightTreeDepth) + 1;
         }
-
     }
 }
